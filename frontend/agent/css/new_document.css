@@ -1,0 +1,29 @@
+
+.tags-input-wrapper{
+    background: transparent;
+    padding: 10px;
+    border-radius: 4px;
+    /* max-width: 400px; */
+    border: 1px solid #ccc
+}
+.tags-input-wrapper input{
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 140px;
+    margin-left: 8px;
+}
+.tags-input-wrapper .tag{
+    display: inline-block;
+    background-color: #5C60F5;
+    color: white;
+    border-radius: 10px;
+    padding: 2px 4px 0px 10px;
+    margin-right: 5px;
+    margin-bottom:5px;
+}
+.tags-input-wrapper .tag a {
+    margin: 0 7px 3px;
+    display: inline-block;
+    cursor: pointer;
+}

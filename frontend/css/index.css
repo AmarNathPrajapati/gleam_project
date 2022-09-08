@@ -1,0 +1,218 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1800px;
+    margin: auto;
+    /* background-color: #EDEEF0; */
+}
+
+.container-1{
+    width: 100%;
+    background-image: url("../images/Wave2.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.container-img{
+    max-width: 100%;
+    overflow: hidden;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+}
+.horizontal-row-part{
+    max-width: 100%;
+  
+    margin-top: 150px;
+    /* background-color: #81AAD6; */
+    padding: 24px;
+
+    background-image: url("../images/Meteor.svg");
+    background-size: cover;
+}
+.good-img{
+    
+   height: 270px;
+   border-radius: 10px;
+   margin-top: -10px;
+}
+
+
+@property --num {
+    syntax: "<integer>";
+    initial-value: 100;
+    inherits: false;
+  }
+  
+  .membership{
+    animation: counter 4s 1  ease-in-out;
+    counter-reset: num var(--num);
+    font: 800 40px system-ui;
+    color: #2F4858 !important;
+   
+  }
+  .membership::after {
+    content: counter(num);
+  }
+  
+  @keyframes counter {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 100;
+    }
+  }
+  
+  @property --numtwo {
+    syntax: "<integer>";
+    initial-value: 10;
+    inherits: false;
+  }
+  
+  .companies{
+    animation: countertwo 2s 1  ease-in-out;
+    counter-reset: numtwo var(--numtwo);
+    font: 800 40px system-ui;
+    color:#2F4858 !important;
+    
+  }
+  .companies::after {
+    content: counter(numtwo);
+   
+  }
+  
+  @keyframes countertwo {
+    from {
+      --numtwo: 0;
+    }
+    to {
+      --numtwo: 10;
+    }
+  }
+  
+  @property --num3 {
+  syntax: "<integer>";
+  initial-value: 1000;
+  inherits: false;
+  }
+  
+  .traniers{
+  animation: counter3 4s 1  ease-in-out;
+  counter-reset: num3 var(--num3);
+  font: 800 40px system-ui;
+  color:#2F4858 !important;
+  
+  
+  }
+  .traniers::after {
+  content: counter(num3);
+  
+  }
+  
+  @keyframes counter3 {
+  from {
+    --num3: 0;
+  }
+  to {
+    --num3: 1000;
+  }
+  }
+  
+  @property --num4 {
+  syntax: "<integer>";
+  initial-value: 5;
+  inherits: false;
+  }
+  
+  .year{
+  animation: year 1s 1  ease-in-out;
+  counter-reset: num4 var(--num4);
+  font: 800 40px system-ui;
+  color:#2F4858 !important;
+  
+  
+  }
+  .year::after {
+  content: counter(num4);
+  }
+  
+  @keyframes year {
+  from {
+    --num4: 0;
+  }
+  to {
+    --num4: 5;
+  }
+  }
+  .videos-box{
+     
+      overflow: hidden;
+      background-image: url("../images/Stacked\ Wave.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.card1{
+  background-image: linear-gradient(to right,#3B2554,#653E92);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  border-radius: 10px;
+  transition: 500ms;
+}
+.card1:hover{
+  transform: scale(1.05);
+  
+}
+
+.card2{
+  background-image: linear-gradient(to right,#417881,#4C8A9E);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  border-radius: 10px;
+  transition: 500ms;
+}
+.card2:hover{
+  transform: scale(1.05);
+  
+}
+
+.card3{
+  background-image: linear-gradient(to right,#CA4F6C,#E66582);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  border-radius: 10px;
+  transition: 500ms;
+}
+.card3:hover{
+  transform: scale(1.05);
+  
+}
+
+.card4{
+  background-image: linear-gradient(to right,#BD9E51,#DCAD33);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  border-radius: 10px;
+  transition: 500ms;
+}
+.card4:hover{
+  transform: scale(1.05);
+  
+}
+.play-btn{
+  background-color: white;
+  padding: 5px;
+  color: black;
+  transition: 5ms;
+}
+.play-btn:hover{
+  padding: 5px 7px;
+}

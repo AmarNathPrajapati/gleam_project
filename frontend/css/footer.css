@@ -1,0 +1,14 @@
+.footer-bg{
+    background-image: url("../images/World\ Map.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer>a{
+    text-decoration: none;
+}
+.footer-link{
+    color: black;
+    font-weight: 700;
+    text-decoration: none !important;
+}

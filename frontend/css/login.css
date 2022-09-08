@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    /* background-color: black; */
+    background-color: rgb(232, 248, 255)
+}
+.container{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    max-width: 360px;
+    height: 550px;
+    margin: 8% auto;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 1s;
+    box-shadow: 5px 10px 10px gray;
+    
+}
+.container form{
+    position: absolute;
+    margin: 50px 30px;
+    width: 90%;
+    max-width: 300px;
+    text-align: center;
+   
+    transition: 1s;
+}
+
+#login_form{
+    transition: 1s;
+}
+#signup_form{
+    transition: 1s;
+    left: 450px;
+}
+form h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+form input{
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    width: 90%;
+    max-width: 280px;
+    background: transparent;
+    color: #3E497A;
+    border: 0px;
+    border-bottom: 1px solid #832800;
+    outline: none;
+}
+.btn-box{
+    width: 100%;
+    text-align: center;
+}
+.btn-box button{
+   height: 35px;
+   width: 70px;
+   border-radius: 3px;
+   color: white;
+   background-color: #832800;
+   cursor: pointer;
+   outline: none;
+   border: 0px;
+}
+.new-user-box{
+    margin-top: 70px;
+}
+
+.new-user-box button{
+    height: 30px;
+    width: 70px;
+    border-radius: 3px;
+    color: white;
+    background-color: #832800;
+    cursor: pointer;
+    outline: none;
+    border: 0px;
+ }
+.parts-row{
+    width: 90%;
+    height: 40px;
+    margin: 10px auto;
+    background: transparent;
+    
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: 1s;
+}
+.parts-col{
+    width: 50%;
+    max-width: 180px;
+    text-align: center;
+    position: relative;
+    background: transparent;
+    padding: 10px 8px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: 1s;
+}
+#active{
+    position: absolute;
+    width: 50%;
+    max-width: 180px;
+    height: 40px;
+    background:linear-gradient(to right, #F0F0F0,#EEEEEE);
+    transition: 1s;
+    border-radius: 20px;
+}

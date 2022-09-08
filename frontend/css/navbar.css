@@ -1,0 +1,18 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+nav{
+  box-shadow: 2px 3px 10px rgb(184, 184, 184) !important;
+}
+.navBackgroundStart{
+  background-color: white; 
+  box-shadow: 5px 5px 10px rgb(184, 184, 184);
+}
+
+.nav-link{
+  color: #084594 !important;
+}
+.nav-item button{
+  background-color: #084594 !important;
+}
